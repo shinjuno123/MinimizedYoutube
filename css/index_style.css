@@ -80,6 +80,7 @@ nav .others-section{
     all: unset;
     width: 2rem;
     height: 2rem;
+    
 }
 
 .others-section button img{
@@ -127,6 +128,61 @@ main div{
     height: 100%;
 }
 
+yt-icon{
+    cursor: pointer;
+}
+
+.wrapper{
+    position: fixed;
+    display:none;
+    justify-content: end;
+    /* background-color: black; */
+    width: 100%;
+    top:4rem;
+    height: 2rem;
+    z-index: 999;
+}
 
 
-/* 1140px media */
+
+
+#bubble{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.56);
+    width: 3rem;
+    height: 2rem;
+    z-index: 999;
+    right: 11.5%;
+    line-height: 2rem;
+    font-size: small;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:1150px){
+    #bubble{
+        right: 11%;
+    }
+}
+
+@media screen and (max-width:950px){
+    #bubble{
+        right: 10.5%;
+    }
+}
+@media screen and (max-width:700px){
+    #bubble{
+        right: 9.8%;
+    }
+}
+
+
+#upload-menu{
+    background-color: #d1d1d1;
+    border-radius: 25px;
+}
+
+
+
